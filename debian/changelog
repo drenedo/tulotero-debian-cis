@@ -1,0 +1,73 @@
+cis-hardening (1.0-10) wheezy; urgency=low
+
+  * Script output should be useful with pipe or redirection
+
+ -- Kevin Tanguy <kevin.tanguy@ovh.net>  Wed, 18 May 2016 08:38:35 +0200
+
+cis-hardening (1.0-9) wheezy; urgency=low
+
+  * Fixed replace in file function with proper substitution
+  * tripwire : fixed typo on postinstall helper
+  * fix 99.1 Apply TMOUT Variable
+
+ -- Kevin Tanguy <kevin.tanguy@ovh.net>  Tue, 03 May 2016 12:31:59 +0200
+
+cis-hardening (1.0-8) wheezy; urgency=low
+
+  * phrasing reworked all over the place
+  * added debian dependencies bash and bc
+
+ -- Kevin Tanguy <kevin.tanguy@ovh.net>  Tue, 26 Apr 2016 10:26:18 +0200
+
+cis-hardening (1.0-7) wheezy; urgency=low
+
+  * Fixed 6.15 netstat analysis
+
+ -- Kevin Tanguy <kevin.tanguy@ovh.net>  Mon, 25 Apr 2016 09:18:30 +0200
+
+cis-hardening (1.0-6) wheezy; urgency=low
+
+  * corrected README.md CIS website address
+  * corrected conffiles: etc/hardening.cfg was missing
+
+ -- Kevin Tanguy <kevin.tanguy@ovh.net>  Fri, 22 Apr 2016 14:27:40 +0200
+
+cis-hardening (1.0-5) wheezy; urgency=low
+
+  * typo fix / phrasing reworked
+  * Fixed default file error handling and quickstart
+  * Fixed point 9.1.8 cron rights as a chmod 600 disabled the cron.allow
+    features (file must be world readable)
+
+ -- Kevin Tanguy <kevin.tanguy@ovh.net>  Fri, 22 Apr 2016 10:15:55 +0200
+
+cis-hardening (1.0-4) wheezy; urgency=low
+
+  * added AUTHORS file
+  * s/README/README.md/ with more details
+  * manpage extracted from README
+
+ -- Kevin Tanguy <kevin.tanguy@ovh.net>  Thu, 21 Apr 2016 11:57:39 +0200
+
+cis-hardening (1.0-3) wheezy; urgency=low
+
+  * add --audit-all option
+  * add --audit-all-enable-passed, add info in README and help
+  * Added exit code to CIS_ROOT_DIR test def, optimized sed and sort
+  * Fixed 8.2.4 check file exists before testing rights
+
+ -- Kevin Tanguy <kevin.tanguy@ovh.net>  Wed, 20 Apr 2016 12:37:58 +0200
+
+cis-hardening (1.0-2) wheezy; urgency=low
+
+  * add LICENSE
+  * duplicate README in /opt and /usr/share/doc
+  * patch conffiles for new correct configuration files names
+
+ -- Kevin Tanguy <kevin.tanguy@ovh.net>  Tue, 19 Apr 2016 14:31:03 +0200
+
+cis-hardening (1.0-1) stable; urgency=low
+
+  * Initial release.
+
+ -- Kevin Tanguy <kevin.tanguy@ovh.net>  Mon, 18 Apr 2016 17:13:07 +0200
